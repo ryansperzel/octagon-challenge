@@ -10,6 +10,7 @@ class App extends Component {
       <div className="App">
         <NavBar/>
         <Route exact path="/" render={props => <Landing {...props} />} />
+        <Route exact path="/contact" render={props => <Contact {...props} />} />
       </div>
     );
   }
