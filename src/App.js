@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import NavBar from './components/NavBar'
 import { Route } from "react-router-dom";
 import Landing from './components/Landing.js'
+import Contact from './components/Contact.js'
+import { connect } from 'react-redux'
 
 
 class App extends Component {
